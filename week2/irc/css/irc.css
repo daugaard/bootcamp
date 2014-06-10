@@ -1,11 +1,58 @@
 /*
-
-Here's a blank CSS file to start you off.  But maybe your want to organize
-Your styles into a few different files based on functionality or areas
-of the page.
-
-*/
+ * @author Clinton Freeman <clintonfreeman@infusion.com>
+ * @date 2014-06-09
+ */
 
 body {
 	font-family: 'Open Sans';
+}
+
+section {
+	min-height: 500px;
+}
+
+section h1 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#trailer {
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0px 0px 8px #555;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background: none;
+	color: #de0c7a;
+	width: 10%;
+}
+
+.carousel blockquote {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+div.item {
+	height: 200px;
+}
+
+.help-block {
+	color: #de0c7a;
+}
+
+.form-group {
+	overflow: hidden;
+}
+
+#robot-wrapper {
+	position: relative;
+	left: 200%;
+	visibility: hidden;
+	transition: all 1s;
+}
+
+#robot-wrapper.robot-visible {
+	visibility: initial;
+	left: 0%;
 }
