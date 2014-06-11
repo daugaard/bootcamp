@@ -1,0 +1,127 @@
+﻿body {
+	font-family: 'Open Sans';
+	color: #232323;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+header, footer, nav, section {
+	display: block;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+	border: 1px solid #ddd;
+	padding: 0 1.4em 1.4em 1.4em;
+	margin: 0 0 1.5em 0;
+}
+
+legend { 
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+textarea {
+	min-height: 75px;
+}
+
+.editor-label {
+	margin: 1em 0 0 0;
+}
+
+.editor-field {
+	margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+	color: #f00;
+}
+
+.field-validation-valid {
+	display: none;
+}
+
+.input-validation-error {
+	border: 1px solid #f00;
+	background-color: #fee;
+}
+
+.validation-summary-errors {
+	font-weight: bold;
+	color: #f00;
+}
+
+.validation-summary-valid {
+	display: none;
+}
+
+/*
+ * @author Clinton Freeman <clintonfreeman@infusion.com>
+ * @date 2014-06-09
+ */
+
+body {
+	font-family: 'Open Sans';
+}
+
+section {
+	min-height: 500px;
+}
+
+section h1 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#trailer {
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0px 0px 8px #555;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background: none;
+	color: #de0c7a;
+	width: 10%;
+}
+
+.carousel blockquote {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+div.item {
+	height: 200px;
+}
+
+.help-block {
+	color: #de0c7a;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.help-block.visible {
+	opacity: 1;
+}
+
+.form-group {
+	overflow: hidden;
+}
+
+#robot-wrapper {
+	/*position: relative;*/
+	left: 100%;
+	visibility: hidden;
+	transition: position 2s;
+}
+
+#robot-wrapper.robot-visible {
+	visibility: visible;
+	left: 0%;
+}

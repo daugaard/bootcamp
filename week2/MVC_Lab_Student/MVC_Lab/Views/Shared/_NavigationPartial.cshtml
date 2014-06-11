@@ -1,0 +1,21 @@
+﻿<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand">Infusion Realtime Chat</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                @if (Request.IsAuthenticated) {
+                    <li>@User.Identity.Name</li>
+                    <li>@Html.ActionLink("Sign Out", "LogOff", "Account")</li>
+                }
+                else {
+                    <li>@Html.ActionLink("Register", "Login", "Account")</li>
+                    <li>@Html.ActionLink("Sign In", "Login", "Account")</li>
+                }
+            </ul>
+        </div>
+    </div>
+</nav>

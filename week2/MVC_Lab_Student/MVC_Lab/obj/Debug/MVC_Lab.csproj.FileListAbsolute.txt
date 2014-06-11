@@ -1,0 +1,65 @@
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\obj\Debug\MVC_Lab.csprojResolveAssemblyReference.cache
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\MVC_Lab.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\MVC_Lab.pdb
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\Antlr3.Runtime.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\EntityFramework.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\EntityFramework.SqlServer.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\Microsoft.Web.Infrastructure.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\Newtonsoft.Json.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Net.Http.Formatting.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Http.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Http.WebHost.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Mvc.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Optimization.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Providers.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Razor.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Web.WebPages.Deployment.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Web.WebPages.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Web.WebPages.Razor.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\WebGrease.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\EntityFramework.xml
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\EntityFramework.SqlServer.xml
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\Newtonsoft.Json.xml
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Net.Http.Formatting.xml
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Http.xml
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Http.WebHost.xml
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Mvc.xml
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Razor.xml
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Web.WebPages.xml
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Web.WebPages.Deployment.xml
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\bin\System.Web.WebPages.Razor.xml
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\obj\Debug\MVC_Lab.dll
+D:\Git\bootcamp-labs\Day 2\MVC_Lab_Student\MVC_Lab\obj\Debug\MVC_Lab.pdb
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\MVC_Lab.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\MVC_Lab.pdb
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\Antlr3.Runtime.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\EntityFramework.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\EntityFramework.SqlServer.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\Microsoft.Web.Infrastructure.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\Newtonsoft.Json.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Net.Http.Formatting.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Http.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Http.WebHost.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Mvc.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Optimization.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Providers.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Razor.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.WebPages.Deployment.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.WebPages.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.WebPages.Razor.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\WebGrease.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\EntityFramework.xml
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\EntityFramework.SqlServer.xml
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\Newtonsoft.Json.xml
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Net.Http.Formatting.xml
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Http.xml
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Http.WebHost.xml
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Mvc.xml
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.Razor.xml
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.WebPages.xml
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.WebPages.Deployment.xml
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.WebPages.Razor.xml
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\obj\Debug\MVC_Lab.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\obj\Debug\MVC_Lab.pdb

@@ -1,0 +1,29 @@
+Given basic forms authentication
+
+Act 1
+1) Home page (import Day 1 Lab into Home/Index)
+2) Create a generic layout for any page which includes all non-custom CSS and all markup except for <body> (keep footer in this layout)
+3) Create a MVC specific layout with MVC navigation and inherits from generic layout
+4) Create a section called "lead" and include a description on each view
+5) Create an About page which uses the layout from task 3
+6) Create a route to /Register which links to the register page and update the Sign Up link in the day 1 lab to point to it
+
+Act 2 
+1) Add View to register user
+2) Ensure that only authenticated users can access pages other than the ones provided by default (e.g. home, about, login, register)
+3) Add views to display and edit your own details (linking from name in Navigation)
+4) Add view to list all *other* users
+5) Add view to display a specific user's details
+
+Act 3
+1) Create a model for Friendships and add DbSet and seed data in initializer
+2) Enable users to add other users as friends (ideally with confirmation page)
+3) Add view to list all friends sorted into categories (mutual friendships, requested friendships, friendship requests)
+4) Enable users to remove friends, retract friend requests, and ignore incoming requests (ideally each with a confirmation page)
+5) Have sensitive user details (e.g. real name and email) only show if that user has befriended you (regardless of whether you befriend them)
+
+Nice to haves
+1) Try to bundle scripts and CSS
+2) Create a scripts section and include rendered scripts at the bottom of markup
+3) Any screen that lists users will automatically show appropriate controls for "add friend", "retract request", or "ignore request"
+4) Create a floating element that lists all friends separated by states (only if authenticated)

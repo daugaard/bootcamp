@@ -1,0 +1,39 @@
+﻿@model MVC_Lab.Models.LoginModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<section id="loginForm">
+@using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl })) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <ol>
+        <li>
+            @Html.LabelFor(m => m.UserName)
+            @Html.TextBoxFor(m => m.UserName)
+            @Html.ValidationMessageFor(m => m.UserName)
+        </li>
+        <li>
+            @Html.LabelFor(m => m.Password)
+            @Html.PasswordFor(m => m.Password)
+            @Html.ValidationMessageFor(m => m.Password)
+        </li>
+        <li>
+            @Html.CheckBoxFor(m => m.RememberMe)
+            @Html.LabelFor(m => m.RememberMe, new { @class = "checkbox" })
+        </li>
+    </ol>
+    
+    <div class="submit-button">
+        <input type="submit" value="Log in" class="btn btn-primary"/>
+    </div>
+    
+    <p>
+        @Html.ActionLink("Register here", "Login", "Account") if you do not already have an account.
+    </p>
+}
+</section>
+
+@Scripts.Render("~/bundles/jqueryval")

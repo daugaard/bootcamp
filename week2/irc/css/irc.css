@@ -39,6 +39,12 @@ div.item {
 
 .help-block {
 	color: #de0c7a;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.help-block.visible {
+	opacity: 1;
 }
 
 .form-group {
@@ -46,13 +52,13 @@ div.item {
 }
 
 #robot-wrapper {
-	position: relative;
-	left: 200%;
+	/*position: relative;*/
+	left: 100%;
 	visibility: hidden;
-	transition: all 1s;
+	transition: position 2s;
 }
 
 #robot-wrapper.robot-visible {
-	visibility: initial;
+	visibility: visible;
 	left: 0%;
 }

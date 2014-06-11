@@ -1,0 +1,135 @@
+﻿@{
+    ViewBag.Title = "Infusion Realtime Chat";
+}
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">Infusion Realtime Chat</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#watch">Watch</a></li>
+                        <li><a href="#try">Try</a></li>
+                        <li><a href="#read">Read</a></li>
+                        <li><a href="#join">Join</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+        <section id="home" class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6" id="logo-wrapper">
+                        <img id="logo" src="/Content/assets/irc-logo.png" alt="Logo">
+                    </div>
+                    <div class="col-sm-6" id="lead-wrapper">
+                        <p class="lead">Introducing a <strong>revolutionary</strong><br>new chat application.</p>
+                        <p class="lead">It's like carrier pidgeons&hellip;<br>but for the <strong>internet</strong>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="watch" class="container">
+            <h1>Watch the trailer.</h1>
+            <video id="trailer" src="/Content/assets/irc-trailer.mp4" type="video/mp4" poster="http://www.framestore.com/sites/default/files/styles/hero_720x406px/public/work/fedex_pigeon1600x1200.jpg?itok=o_pdc1ua"></video>
+        </section>
+
+        <section id="try" class="container">
+            <h1>Try it out.</h1>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label for="name" class="col-sm-12">What's your name?</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="name" placeholder="Don't be shy">
+                    </div>
+                    <span id="name-comment" class="help-block col-sm-6"></span>
+                </div>
+                <div class="form-group">
+                    <label for="city" class="col-sm-12">Where do you live?</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="city" placeholder="Enter a city">
+                    </div>
+                    <span id="city-comment" class="help-block col-sm-6"></span>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="col-sm-12">Type your message and hit send</label>
+                    <div class="col-sm-6">
+                        <textarea class="form-control" rows="5" id="message" placeholder="Go crazy!"></textarea>
+                        <button id="send" type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                    <div id="robot-wrapper" class="col-sm-6">
+                        <p id="robot-speech">Hello human.  I have received your message and regret to inform you that your body will innevitably decay, crushed by the relentless onslaught of age and disease.</p>
+                        <img id="robot" src="~/Content/assets/irc-robot.png">
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <section id="read" class="container">
+            <h1>Read the testimonials.</h1>
+            <div id="testimonials" class="carousel slide" data-ride="carousel" data-interval="15000">
+                <!-- Slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <blockquote>
+                            <p><strong>The art of letter-writing is fast dying out.</strong>  When a letter cost nine pence, it seemed but fair to try to make it worth nine pence.  Now, however, we think we are too busy for such old-fashion correspondence.  <strong>We fire off a multitude of rapid and short notes, isntead of sitting down to have a good talk over a real sheet of paper.</strong></p>
+                            <footer>The Sunday Magazine (1871)</footer>
+                        </blockquote>
+                    </div>
+                    <div class="item">
+                        <blockquote>
+                            <p>Intellectual laziness and the hurry of the age have produced <strong>a craving for literary nips.</strong>  The torpid brain has grown too weak for sustained though.  <strong>There never was an age in which so many people were able to write so badly.</strong></p>
+                            <footer>Israel Zangwill, The Bachelors' Club (1891)</footer>
+                        </blockquote>
+                    </div>
+                    <div class="item">
+                        <blockquote>
+                            <p>The articles in the Quarterlies extend to thirty or more pages, but <strong>thirty pages is now too much</strong> so we witness a further condensing process and, we have the Fortnightly and the Contemporary which reduce thirty pages to <strong>fifteen pages</strong> so that you may read a larger number of articles in a shorter time and in a shorter form. As if this last condensing process were not enough the condensed articles of these periodicals are <strong>further condensed</strong> by the daily papers, which will give you a <strong>summary of the summary</strong> of all that has been written about everything.</p>
+                            <footer>G. J. Goschen, First Annual Address to the Students (1894)</footer>
+                        </blockquote>
+                    </div>
+                    <div class="item">
+                        <blockquote>
+                            <p>The art of conversation is almost a lost one. <strong>People talk as they ride bicycles–at a rush–without pausing to consider their surroundings.</strong> What has been generally understood as cultured society is rapidly deteriorating into baseness and voluntary ignorance. <strong>The profession of letters is so little understood</strong>, and so far from being seriously appreciated, that newspapers are full, not of thoughtful honestly expressed public opinion on the affairs of the nation, but of vapid personalities interesting to none save gossips and busy bodies.</p>
+                            <footer>Marie Corelli, Free opinions, freely expressed (1905)</footer>
+                        </blockquote>
+                    </div>
+                    <div class="item">
+                        <blockquote>
+                            <p><strong>A hundred years ago it took so long and cost so much to send a letter that it seemed worth while to put some time and thought into writing it.</strong> Now the quickness and the cheapness of the post seem to justify the feeling that <strong>a brief letter to-day may be followed by another next week, a "line" now by another to-morrow.</strong></p>
+                            <footer>Percy Holmes Boynton, Principles of Composition (1915)</footer>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#testimonials" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#testimonials" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </section>
+
+        <section id="join" class="container">
+            <h1>Join the movement.</h1>
+            <p>What are you waiting for?</p>
+            <p><a href="#">Sign up</a> now.</p>
+        </section>
+
+    </body>
