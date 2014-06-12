@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * @author Infusion bootcamp instructors
+ * @author Clinton Freeman <clintonfreeman@infusion.com>
+ * @date 2014-06-10
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -14,8 +20,35 @@ namespace MVC_Lab.Controllers
     {
         private InfusionRelayChatContext db = new InfusionRelayChatContext();
 
-        //
-        // GET: /Account/Login
+        #region GET: /Account/Register
+
+        [HttpGet]
+        [AllowAnonymous]
+        public ActionResult Register(string returnUrl)
+        {
+            ViewBag.ReturnUrl = returnUrl;
+            return View();
+        }
+
+        #endregion
+
+        #region POST: /Account/Register
+
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public ActionResult Register(User newUser, string returnUrl)
+        {
+            newUser.UserId = db.Users.Count();
+            db.Users.Add(newUser);
+            db.SaveChanges();
+            ViewBag.ReturnUrl = returnUrl;
+            return View();
+        }
+
+        #endregion
+
+        #region GET: /Account/Login
 
         [HttpGet]
         [AllowAnonymous]
@@ -25,8 +58,9 @@ namespace MVC_Lab.Controllers
             return View();
         }
 
-        //
-        // POST: /Account/Login
+        #endregion
+
+        #region POST: /Account/Login
 
         [HttpPost]
         [AllowAnonymous]
@@ -48,8 +82,9 @@ namespace MVC_Lab.Controllers
             return View(model);
         }
 
-        //
-        // GET: /Account/LogOff
+        #endregion
+
+        #region GET: /Account/LogOff
 
         [HttpGet]
         public ActionResult LogOff()
@@ -58,6 +93,8 @@ namespace MVC_Lab.Controllers
 
             return RedirectToAction("Index", "Home");
         }
+
+        #endregion
 
         #region Helpers
         private ActionResult RedirectToLocal(string returnUrl)

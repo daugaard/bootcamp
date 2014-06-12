@@ -1,4 +1,9 @@
-﻿@{
+﻿@* 
+ * author Clinton Freeman <clintonfreeman@infusion.com> 
+ * date 2014-06-10
+ *@
+
+@{
     Layout = null;
 }
 
@@ -14,7 +19,7 @@
         
         <!-- Bootstrap -->
         @Styles.Render("//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
-        @Styles.Render("//fonts.googleapis.com/css?family=Open+Sans:400,600,700")
+        @Styles.Render("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800") 
     
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,7 +41,7 @@
         @Scripts.Render("~/bundles/jquery")
         @Scripts.Render("~/bundles/modernizr")
         @Scripts.Render("//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")
-        @Scripts.Render("~/Scripts/irc/irc.js")
+        @RenderSection("scripts", required: false)
     </body>
                 
 </html>

@@ -63,3 +63,15 @@ C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.WebPages.Depl
 C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\System.Web.WebPages.Razor.xml
 C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\obj\Debug\MVC_Lab.dll
 C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\obj\Debug\MVC_Lab.pdb
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\obj\Debug\MVC_Lab.csprojResolveAssemblyReference.cache
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\Microsoft.Owin.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\Microsoft.Owin.Security.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\Owin.dll
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\Microsoft.Owin.xml
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\workspace\bootcamp\week2\MVC_Lab_Student\MVC_Lab\bin\Microsoft.Owin.Security.xml

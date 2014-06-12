@@ -1,46 +1,31 @@
-﻿@{
+﻿@* 
+ * author Clinton Freeman <clintonfreeman@infusion.com> 
+ * date 2014-06-10
+ *@
+
+@{
     Layout = "~/Views/Shared/_GenericLayout.cshtml";
 }
 
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<header>
+    @Html.Partial("_NavigationPartial")
+</header>
 
-        <title>@ViewBag.Title</title>        
-        
-        <!-- Bootstrap -->
-        @Styles.Render("//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
-        @Styles.Render("//fonts.googleapis.com/css?family=Open+Sans:400,600,700")
-    
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-        @Styles.Render("~/Content/css")
-    </head>
-    
-    <body>
-        <header>
-            <div class="header">
-                <div>
-                    <section id="navigation">
-                        @Html.Partial("_NavigationPartial")
-                    </section>
-                </div>
+<section id="home" class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6" id="logo-wrapper">
+                <img id="logo" src="/Content/assets/irc-logo.png" alt="Logo">
             </div>
-        </header>
-
-        <div class="content">
-            
-    
-            <div class="bodyContent">
-                @RenderBody()
+            <div class="col-sm-6" id="lead-wrapper">
+                @RenderSection("description", false)
             </div>
         </div>
-    </body>
-</html>
+    </div>
+</section>
+
+@RenderBody()
+
+@section Scripts {
+    @RenderSection("scripts", required: false)
+}

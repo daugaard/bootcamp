@@ -1,4 +1,9 @@
-﻿<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+﻿@* 
+ * author Clinton Freeman <clintonfreeman@infusion.com> 
+ * date 2014-06-10
+ *@
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand">Infusion Realtime Chat</a>
@@ -12,7 +17,7 @@
                     <li>@Html.ActionLink("Sign Out", "LogOff", "Account")</li>
                 }
                 else {
-                    <li>@Html.ActionLink("Register", "Login", "Account")</li>
+                    <li>@Html.ActionLink("Register", "Register", "Account")</li>
                     <li>@Html.ActionLink("Sign In", "Login", "Account")</li>
                 }
             </ul>

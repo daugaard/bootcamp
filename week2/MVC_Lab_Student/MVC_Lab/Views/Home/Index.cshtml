@@ -1,8 +1,36 @@
-﻿@{
+﻿@* 
+ * author Clinton Freeman <clintonfreeman@infusion.com> 
+ * date 2014-06-10
+ *@
+
+@{
     ViewBag.Title = "Infusion Realtime Chat";
+    Layout = null;
 }
 
-<body data-spy="scroll" data-target=".navbar-collapse">
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>@ViewBag.Title</title>        
+        
+        <!-- Bootstrap -->
+        @Styles.Render("//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
+        @Styles.Render("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800")    
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        @Styles.Render("~/Content/css")
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar-collapse">
 
     <header>
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -16,7 +44,7 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div class="navbar-collapse collapse">
+                <div id="spytarget" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a href="#home">Home</a></li>
                         <li><a href="#watch">Watch</a></li>
@@ -129,7 +157,18 @@
         <section id="join" class="container">
             <h1>Join the movement.</h1>
             <p>What are you waiting for?</p>
-            <p><a href="#">Sign up</a> now.</p>
+            <p><a href="/Account/Register">Sign up</a> now.</p>
         </section>
 
+        <footer id="main-footer" class="container">
+            <p>&copy; Infusion Bootcamp 2014</p>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/modernizr")
+        @Scripts.Render("//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")
+        @Scripts.Render("~/Scripts/irc/irc.js")
+
     </body>
+
+</html>

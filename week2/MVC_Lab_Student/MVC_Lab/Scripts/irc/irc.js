@@ -6,19 +6,16 @@
 (function () {
 	'use strict';
 
-	var installWatchHandler = function () {
-		$('body').on('activate.bs.scrollspy', function (e) {
-			var trailer = document.getElementById('trailer');
-			if (e.target.lastChild.hash === "#watch") {
-				if (trailer.paused) {
-					trailer.play();
-				}
-			} else {
-				trailer.pause();
+	var trailer = document.getElementById('trailer');
+	$('.navbar-collapse').on('activate.bs.scrollspy', function (e) {
+		if (e.target.lastChild.hash === "#watch") {
+			if (trailer.paused) {
+				trailer.play();
 			}
-		});
-	};
-	installWatchHandler();
+		} else {
+			trailer.pause();
+		}
+	});
 
 	var nameField = document.getElementById('name');
 	var nameComment = document.getElementById('name-comment');

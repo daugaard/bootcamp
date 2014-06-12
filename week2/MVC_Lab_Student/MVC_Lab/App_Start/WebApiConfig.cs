@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * @author Infusion bootcamp instructors
+ * @author Clinton Freeman <clintonfreeman@infusion.com>
+ * @date 2014-06-10
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;

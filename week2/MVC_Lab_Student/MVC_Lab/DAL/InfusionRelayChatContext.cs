@@ -1,4 +1,10 @@
-﻿using System.Data.Entity;
+﻿/*
+ * @author Infusion bootcamp instructors
+ * @author Clinton Freeman <clintonfreeman@infusion.com>
+ * @date 2014-06-10
+ */
+
+using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using MVC_Lab.Models;
 
